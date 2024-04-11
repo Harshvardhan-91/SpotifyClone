@@ -180,7 +180,7 @@ header .master_play .wave .wave1 {
   background: #ffffff;
   margin-right: 3px;
   border-radius: 10px 10px 0px 0px;
-  animation: unset;
+  animation: wave 0.7s linear infinite;
 }
 header .master_play .wave .wave1:nth-child(2) {
   height: 13px;
@@ -282,10 +282,11 @@ header .master_play .setting .system #currentStart {
 }
 header .master_play .setting .system .bar {
   position: relative;
-  width: 43%;
-  height: 2px;
-  background: rgb(105, 105, 170, 0.1);
+  width: 70%;
+  height: 5px;
+  background: rgba(139, 139, 139, 0.897);
   margin: 0px 15px 0px 10px;
+  border-radius: 15px;
 }
 header .master_play .setting .system .bar .bar2 {
   position: absolute;
