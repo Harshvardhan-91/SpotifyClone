@@ -207,7 +207,7 @@ header .master_play .wave .wave1 {
   background: #ffffff;
   margin-right: 3px;
   border-radius: 10px 10px 0px 0px;
-  animation: unset;
+  animation: wave 0.7s linear infinite;
 }
 header .master_play .wave .wave1:nth-child(2) {
   height: 13px;
