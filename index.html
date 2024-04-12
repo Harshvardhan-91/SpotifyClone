@@ -15,9 +15,17 @@
     <header>
       <div class="menu_side">
         <div class="first">
-          <div class="heading"><h1>Home</h1></div>
-          <div class="playlist">
+          <div class="first1" style="margin: 15px;">
+            <div class="heading"><h1 style="font-size: 16px;"><i class="bi bi-house-door-fill"style=" font-weight: 500; margin-right: 10px;"></i>Home</h1></div>
+           <div class="heading"><h1 style="font-size: 16px;"><i class="bi bi-search" style=" font-weight: 500; margin-right: 10px;"></i>Search</h1></div>
+        </div>
+       </div>
+          
+        <div class="playlist">
             <h4 class="active">
+              <span></span><i class="bi bi-stack"></i></i>Queue
+            </h4>
+            <h4>
               <span></span><i class="bi bi-music-note-beamed"></i>Playlist
             </h4>
             <h4>
@@ -26,7 +34,6 @@
             <h4>
               <span></span><i class="bi bi-music-note-beamed"></i>Recommended
             </h4>
-          </div>
         </div>
 
         <div class="menu_song" id="scroll1">
@@ -131,7 +138,12 @@
           </li>
         </div>
       </div>
-      <div class="song_side"></div>
+      <div class="song_side">
+
+
+
+
+      </div>
       <div class="master_play">
         <div class="wave">
           <div class="wave1"></div>
@@ -162,12 +174,18 @@
             <div class="bar">
               <input type="range" id="seek" min="0" max=" 100" />
               <div class="bar2" id="bar2"></div>
-              <div class="dot"></div>
+              <!-- <div class="dot"></div> -->
             </div>
             <div class="time">
               <span id="currentEnd">2:30</span>
             </div>
           </div>
+        </div>
+        <div class="vol">
+          <i class="bi bi-volume-down-fill" id="vol_icon"></i>
+          <input type="range" min="0" max="100" id="vol" />
+          <div class="vol_bar"></div>
+          <!-- <div class="dot" id="vol_dot"></div> -->
         </div>
       </div>
     </header>
