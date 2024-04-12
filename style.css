@@ -570,30 +570,38 @@ header .song_side nav .user button {
   gap: 5px;
   cursor: pointer;
 }
-.mixes img {
-  width: 180px;
-  height: 180px;
-  border-radius: 8px;
-}
+
 .content .mixes .mix1 {
+  width: 180px;
   height: auto;
   border-radius: 8px;
 }
 .content .mixes .mix2 {
+  width: 180px;
   height: auto;
   border-radius: 8px;
 }
 .content .mixes .mix3 {
+  width: 180px;
   height: auto;
   border-radius: 8px;
 }
 .content .mixes .mix4 {
+  width: 180px;
   height: auto;
   border-radius: 8px;
 }
 .content .mixes .mix5 {
+  width: 180px;
   height: auto;
   border-radius: 8px;
+}
+.mixes img {
+  padding: 10px 10px 5px 10px;
+  height: 180px;
+  width: 100%;
+  margin: auto;
+  border-radius: 15px;
 }
 .content .mixes h5 {
   margin-top: 4px;
@@ -671,6 +679,7 @@ header .song_side nav .user button {
   justify-content: space-between;
   cursor: pointer;
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 .content .nav3 h4:hover {
   text-decoration: underline;
@@ -679,4 +688,246 @@ header .song_side nav .user button {
 .content .nav3 h3:hover {
   text-decoration: underline;
   transition: 0.3s linear;
+}
+/* ------------------------------------------------------------------------ */
+.content .recommends {
+  width: 98%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.content .recommends .recom1 {
+  width: 180px;
+  height: auto;
+  border-radius: 8px;
+}
+.content .recommends .recom2 {
+  width: 180px;
+  height: auto;
+  border-radius: 8px;
+}
+.content .recommends .recom3 {
+  width: 180px;
+  height: auto;
+  border-radius: 8px;
+}
+.content .recommends .recom4 {
+  width: 180px;
+  height: auto;
+  border-radius: 8px;
+}
+.content .recommends .recom5 {
+  width: 180px;
+  height: auto;
+  border-radius: 8px;
+}
+.recommends img {
+  padding: 10px 10px 5px 10px;
+  height: 180px;
+  width: 100%;
+  margin: auto;
+  border-radius: 15px;
+}
+.content .recommends h5 {
+  margin-top: 4px;
+  font-size: 14px;
+  padding-left: 4px;
+  font-weight: 400;
+  text-align: left;
+}
+.content .recommends h6 {
+  width: 180px;
+  font-weight: light;
+  font-size: 12px;
+  margin: 5px;
+  text-overflow: ellipsis;
+  color: #474747;
+}
+.content .recommends .recom1:hover {
+  img {
+    opacity: 0.69;
+  }
+  background: linear-gradient(rgba(28, 28, 28, 0.704), rgba(16, 16, 16, 0.944));
+  transition: 0.3s ease-in-out;
+}
+.content .recommends .recom2:hover {
+  img {
+    opacity: 0.69;
+  }
+  background: linear-gradient(rgba(28, 28, 28, 0.704), rgba(16, 16, 16, 0.944));
+  transition: 0.3s ease-in-out;
+}
+.content .recommends .recom3:hover {
+  img {
+    opacity: 0.69;
+  }
+  background: linear-gradient(rgba(28, 28, 28, 0.704), rgba(16, 16, 16, 0.944));
+  transition: 0.3s ease-in-out;
+}
+.content .recommends .recom4:hover {
+  img {
+    opacity: 0.69;
+  }
+  background: linear-gradient(rgba(28, 28, 28, 0.704), rgba(16, 16, 16, 0.944));
+  transition: 0.3s ease-in-out;
+}
+.content .recommends .recom5:hover {
+  img {
+    opacity: 0.69;
+  }
+  background: linear-gradient(rgba(28, 28, 28, 0.704), rgba(16, 16, 16, 0.944));
+  transition: 0.3s ease-in-out;
+}
+.content .recommends .recom2:hover {
+  img {
+    opacity: 0.69;
+  }
+}
+.content .recommends .recom3:hover {
+  img {
+    opacity: 0.69;
+  }
+}
+.content .recommends .recom4:hover {
+  img {
+    opacity: 0.69;
+  }
+}
+.content .recommends .recom5:hover {
+  img {
+    opacity: 0.69;
+  }
+}
+/* ------------------------------------------------------------------------------------- */
+.content .nav4 {
+  width: 97%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.content .nav4 h4:hover {
+  text-decoration: underline;
+  transition: 0.3s linear;
+}
+.content .nav4 h3:hover {
+  text-decoration: underline;
+  transition: 0.3s linear;
+}
+/* ---------------------------------------------------------------------------------- */
+.content .albums {
+  width: 98%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.content .albums .album1 {
+  width: 180px;
+  height: auto;
+  border-radius: 8px;
+}
+.content .albums .album2 {
+  width: 180px;
+  height: auto;
+  border-radius: 8px;
+}
+.content .albums .album3 {
+  width: 180px;
+  height: auto;
+  border-radius: 8px;
+}
+.content .albums .album4 {
+  width: 180px;
+  height: auto;
+  border-radius: 8px;
+}
+.content .albums .album5 {
+  width: 180px;
+  height: auto;
+  border-radius: 8px;
+}
+.albums img {
+  padding: 10px 10px 5px 10px;
+  height: 180px;
+  width: 100%;
+  margin: auto;
+  border-radius: 15px;
+}
+.content .albums h5 {
+  margin-top: 4px;
+  font-size: 14px;
+  padding-left: 4px;
+  font-weight: 400;
+  text-align: left;
+}
+.content .albums h6 {
+  width: 180px;
+  font-weight: light;
+  font-size: 12px;
+  margin-left: 5px;
+  text-overflow: ellipsis;
+  color: #474747;
+}
+.content .albums .album1:hover {
+  img {
+    opacity: 0.69;
+  }
+  background: linear-gradient(rgba(28, 28, 28, 0.704), rgba(16, 16, 16, 0.944));
+  transition: 0.3s ease-in-out;
+}
+.content .albums .album2:hover {
+  img {
+    opacity: 0.69;
+  }
+  background: linear-gradient(rgba(28, 28, 28, 0.704), rgba(16, 16, 16, 0.944));
+  transition: 0.3s ease-in-out;
+}
+.content .albums .album3:hover {
+  img {
+    opacity: 0.69;
+  }
+  background: linear-gradient(rgba(28, 28, 28, 0.704), rgba(16, 16, 16, 0.944));
+  transition: 0.3s ease-in-out;
+}
+.content .albums .album4:hover {
+  img {
+    opacity: 0.69;
+  }
+  background: linear-gradient(rgba(28, 28, 28, 0.704), rgba(16, 16, 16, 0.944));
+  transition: 0.3s ease-in-out;
+}
+.content .albums .album5:hover {
+  img {
+    opacity: 0.69;
+  }
+  background: linear-gradient(rgba(28, 28, 28, 0.704), rgba(16, 16, 16, 0.944));
+  transition: 0.3s ease-in-out;
+}
+.content .albums .album2:hover {
+  img {
+    opacity: 0.69;
+  }
+}
+.content .albums .album3:hover {
+  img {
+    opacity: 0.69;
+  }
+}
+.content .albums .album4:hover {
+  img {
+    opacity: 0.69;
+  }
+}
+.content .albums .album5:hover {
+  img {
+    opacity: 0.69;
+  }
 }
