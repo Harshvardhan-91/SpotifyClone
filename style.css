@@ -39,7 +39,7 @@ header .menu_side .playlist {
 header .menu_side,
 .song_side {
   width: 25%;
-  height: 87%;
+
   /* border: 1px solid #fff; */
   background: #000000;
   /* box-shadow: 5px 0px 2px #090f1f ; */
@@ -50,7 +50,8 @@ header .menu_side {
   height: 85%;
   margin: auto;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
+  gap: 24px;
 }
 header .menu_side .menu_song {
   overflow-y: scroll;
@@ -227,10 +228,6 @@ header .master_play .active1 .wave1:nth-child(2) {
 }
 header .master_play .active1 .wave1:nth-child(3) {
   animation-delay: 0.8s;
-}
-header .menu_side .menu_song {
-  height: 55%;
-  margin-top: 0px;
 }
 @keyframes wave {
   0% {
