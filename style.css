@@ -25,6 +25,7 @@ header .menu_side .first {
   width: 96%;
   margin: auto;
   border-radius: 8px;
+  padding-bottom: 18px;
 }
 header .menu_side .first h1:hover {
   color: grey;
@@ -33,7 +34,7 @@ header .menu_side .first h1:hover {
 header .menu_side .playlist {
   border-radius: 8px;
   width: 96%;
-  padding-bottom: 10px;
+  padding-bottom: 18px;
 }
 header .menu_side,
 .song_side {
