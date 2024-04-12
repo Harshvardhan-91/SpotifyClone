@@ -439,7 +439,7 @@ header .song_side::before {
   height: 300px;
   background: url("bg1.png");
   border-radius: 17%;
-  /* left: 50%; */
+  left: 60%;
   background-repeat: no-repeat;
   z-index: -1;
 }
@@ -508,4 +508,18 @@ header .song_side nav .search input {
   outline: none;
   padding: 0px 5px;
   color: #fff;
+  font-size: 12px;
+}
+header .song_side nav .user {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  /* border:1px solid #fff; */
+  border-radius: 50%;
+}
+header .song_side nav .user img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: inset 2px solid black;
 }
