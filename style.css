@@ -34,6 +34,7 @@ header .menu_side .first h1:hover {
 header .menu_side .playlist {
   border-radius: 8px;
   width: 96%;
+  height: 25%;
 }
 header .menu_side,
 .song_side {
