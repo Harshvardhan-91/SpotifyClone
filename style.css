@@ -931,3 +931,133 @@ header .song_side nav .user button {
     opacity: 0.69;
   }
 }
+/* ------------------------------------------------------------------------- */
+.content .nav5 {
+  width: 97%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.content .nav5 h4:hover {
+  text-decoration: underline;
+  transition: 0.3s linear;
+}
+.content .nav5 h3:hover {
+  text-decoration: underline;
+  transition: 0.3s linear;
+}
+/* --------------------------------------------------------------------------------- */
+.content .artists {
+  width: 98%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.content .artists .artist1 {
+  width: 180px;
+  height: auto;
+  border-radius: 8px;
+}
+.content .artists .artist2 {
+  width: 180px;
+  height: auto;
+  border-radius: 8px;
+}
+.content .artists .artist3 {
+  width: 180px;
+  height: auto;
+  border-radius: 8px;
+}
+.content .artists .artist4 {
+  width: 180px;
+  height: auto;
+  border-radius: 8px;
+}
+.content .artists .artist5 {
+  width: 180px;
+  height: auto;
+  border-radius: 8px;
+}
+.artists img {
+  padding: 10px 10px 5px 10px;
+  height: 180px;
+  width: 100%;
+  margin: auto;
+  border-radius: 50%;
+}
+.content .artists h5 {
+  margin-top: 4px;
+  font-size: 14px;
+  padding-left: 4px;
+  font-weight: 400;
+  text-align: center;
+}
+.content .artists h6 {
+  width: 180px;
+  font-weight: light;
+  font-size: 12px;
+  margin-left: 5px;
+  text-overflow: ellipsis;
+  color: #474747;
+}
+.content .artists .artist1:hover {
+  img {
+    opacity: 0.69;
+  }
+  background: linear-gradient(rgba(28, 28, 28, 0.704), rgba(16, 16, 16, 0.944));
+  transition: 0.3s ease-in-out;
+}
+.content .artists .artist2:hover {
+  img {
+    opacity: 0.69;
+  }
+  background: linear-gradient(rgba(28, 28, 28, 0.704), rgba(16, 16, 16, 0.944));
+  transition: 0.3s ease-in-out;
+}
+.content .artists .artist3:hover {
+  img {
+    opacity: 0.69;
+  }
+  background: linear-gradient(rgba(28, 28, 28, 0.704), rgba(16, 16, 16, 0.944));
+  transition: 0.3s ease-in-out;
+}
+.content .artists .artist4:hover {
+  img {
+    opacity: 0.69;
+  }
+  background: linear-gradient(rgba(28, 28, 28, 0.704), rgba(16, 16, 16, 0.944));
+  transition: 0.3s ease-in-out;
+}
+.content .artists .artist5:hover {
+  img {
+    opacity: 0.69;
+  }
+  background: linear-gradient(rgba(28, 28, 28, 0.704), rgba(16, 16, 16, 0.944));
+  transition: 0.3s ease-in-out;
+}
+.content .artists .artist2:hover {
+  img {
+    opacity: 0.69;
+  }
+}
+.content .artists .artist3:hover {
+  img {
+    opacity: 0.69;
+  }
+}
+.content .artists .artist4:hover {
+  img {
+    opacity: 0.69;
+  }
+}
+.content .artists .artist5:hover {
+  img {
+    opacity: 0.69;
+  }
+}
