@@ -142,7 +142,6 @@ header .menu_side .playlist .active .bi {
 header .menu_side .menu_song {
   width: 100%;
   margin-top: 0;
-  /* border: 1px solid #fff; */
 }
 header .menu_side .menu_song li {
   list-style-type: none;
