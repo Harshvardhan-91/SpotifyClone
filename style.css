@@ -563,6 +563,7 @@ header .song_side nav .user button {
   display: flex;
   justify-content: space-between;
   gap: 5px;
+  cursor: pointer;
 }
 .mixes img {
   width: 180px;
@@ -570,10 +571,10 @@ header .song_side nav .user button {
   border-radius: 8px;
 }
 .content .mixes .mix1 {
-  height: 200px;
+  height: auto;
   border-radius: 8px;
 }
-.content .mixes .mix {
+.content .mixes .mix2 {
   height: 200px;
   border-radius: 8px;
 }
@@ -592,13 +593,70 @@ header .song_side nav .user button {
 .content .mixes h5 {
   margin-top: 4px;
   font-size: 14px;
+  padding-left: 4px;
   font-weight: 400;
   text-align: left;
 }
 .content .mixes h6 {
   width: 180px;
   font-weight: light;
+
   font-size: 12px;
   text-overflow: ellipsis;
-  color: #3f3f3f;
+  color: #474747;
+}
+.content .mixes .mix1:hover {
+  img {
+    opacity: 0.69;
+  }
+  background: linear-gradient(rgba(28, 28, 28, 0.704), rgba(16, 16, 16, 0.944));
+  transition: 0.3s ease-in-out;
+}
+.content .mixes .mix2:hover {
+  img {
+    opacity: 0.69;
+  }
+  background: linear-gradient(rgba(28, 28, 28, 0.704), rgba(16, 16, 16, 0.944));
+  transition: 0.3s ease-in-out;
+}
+.content .mixes .mix3:hover {
+  img {
+    opacity: 0.69;
+  }
+  background: linear-gradient(rgba(28, 28, 28, 0.704), rgba(16, 16, 16, 0.944));
+  transition: 0.3s ease-in-out;
+}
+.content .mixes .mix4:hover {
+  img {
+    opacity: 0.69;
+  }
+  background: linear-gradient(rgba(28, 28, 28, 0.704), rgba(16, 16, 16, 0.944));
+  transition: 0.3s ease-in-out;
+}
+.content .mixes .mix5:hover {
+  img {
+    opacity: 0.69;
+  }
+  background: linear-gradient(rgba(28, 28, 28, 0.704), rgba(16, 16, 16, 0.944));
+  transition: 0.3s ease-in-out;
+}
+.content .mixes .mix2:hover {
+  img {
+    opacity: 0.69;
+  }
+}
+.content .mixes .mix3:hover {
+  img {
+    opacity: 0.69;
+  }
+}
+.content .mixes .mix4:hover {
+  img {
+    opacity: 0.69;
+  }
+}
+.content .mixes .mix5:hover {
+  img {
+    opacity: 0.69;
+  }
 }
