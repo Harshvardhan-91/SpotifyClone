@@ -36,20 +36,20 @@ const songs = [
   },
   {
     id: 4,
-    songName: `Bachke Bachke(feat. Yarah) <br />
-        <div class="subtitle">Karan Aujla & Ikky</div>`,
+    songName: `Downers At Dusk <br />
+    <div class="subtitle">Talha Anjum and Umair</div>`,
     poster: "img/4.jpg",
   },
   {
     id: 5,
-    songName: `Bachke Bachke(feat. Yarah) <br />
-        <div class="subtitle">Karan Aujla & Ikky</div>`,
+    songName: `Ek Haseena Thi<br />
+    <div class="subtitle">Himesh and Shreya Ghoshal</div>`,
     poster: "img/5.jpg",
   },
   {
     id: 6,
-    songName: `Bachke Bachke(feat. Yarah) <br />
-        <div class="subtitle">Karan Aujla & Ikky</div>`,
+    songName: `Gaddi Neevi <br />
+    <div class="subtitle">Yo Yo Homey Singh & Singsta</div>`,
     poster: "img/6.jpg",
   },
   {
@@ -98,4 +98,28 @@ masterPlay.addEventListener("click", () => {
     masterPlay.classList.remove("bi-pause-circle-fill");
     masterPlay.classList.add("bi-play-circle-fill");
   }
+});
+
+let index = 0;
+let poster_master_play = document.getElementById("poster_master_play");
+let title = document.getElementById("title");
+Array.from(document.getElementsByClassName("playListPlay")).forEach((e) => {
+  e.addEventListener("click", (el) => {
+    index = el.target.id;
+    music.src = `audio/${index}.mp3`;
+    poster_master_play.src = `img/${index}.jpg`;
+    music.play();
+    wave.classList.add("active1");
+    masterPlay.classList.add("bi-pause-circle-fill");
+    masterPlay.classList.remove("bi-play-circle-fill");
+
+    let songTitles = songs.filter((els) => {
+      return els.id == index;
+    });
+
+    songTitles.forEach((elss) => {
+      let { songName } = elss;
+      title.innerHTML = songName;
+    });
+  });
 });

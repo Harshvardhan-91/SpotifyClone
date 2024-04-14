@@ -191,6 +191,7 @@ header .menu_side .menu_song li h5 .subtitle {
   color: #4c5262;
 }
 header .menu_side .menu_song li .bi {
+  font-size: 12px;
   position: absolute;
   right: 1.5rem;
 }
