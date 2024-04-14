@@ -191,7 +191,7 @@ header .menu_side .menu_song li h5 .subtitle {
   color: #4c5262;
 }
 header .menu_side .menu_song li .bi {
-  font-size: 12px;
+  font-size: 14px;
   position: absolute;
   right: 1.5rem;
 }
@@ -1176,6 +1176,9 @@ header .song_side nav .user button {
   .hamburger {
     display: block;
     margin-right: 15px;
+  }
+  .bar {
+    color: #fff;
   }
   .hamburger.active .bar:nth-child(2) {
     opacity: 0;

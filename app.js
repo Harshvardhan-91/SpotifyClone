@@ -18,62 +18,64 @@ const music = new Audio("audio/1.mp3");
 const songs = [
   {
     id: 1,
-    songName: `On My Way <br />
-        <div class="subtitle">Alan Walker</div>`,
+    songName: `Lemonade <br />
+    <div class="subtitle" style="text-overflow:ellipsis;">Diljit Dosanjh</div>`,
     poster: "img/1.jpg",
   },
   {
     id: 2,
     songName: `Pehle Bhi main <br />
-        <div class="subtitle"><marquee Scrolldelay="200">Vishal Mishra , Rajshekhar</marquee></div>`,
+    <div class="subtitle" style="text-overflow:ellipsis;">
+      Vishal Mishra , Rajshekhar
+    </div>`,
     poster: "img/2.jpg",
   },
   {
     id: 3,
     songName: `Bachke Bachke(feat. Yarah) <br />
-        <div class="subtitle"><marquee Scrolldelay="200">Karan Aujla & Ikky</marquee></div>`,
+        <div class="subtitle" style="text-overflow:ellipsis;">Karan Aujla & Ikky</div>`,
     poster: "img/3.jpg",
   },
   {
     id: 4,
     songName: `Downers At Dusk <br />
-    <div class="subtitle">Talha Anjum and Umair</div>`,
+    <div class="subtitle" style="text-overflow:ellipsis;">Talha Anjum and Umair</div>`,
     poster: "img/4.jpg",
   },
   {
     id: 5,
     songName: `Ek Haseena Thi<br />
-    <div class="subtitle">Himesh and Shreya Ghoshal</div>`,
+    <div class="subtitle" style="text-overflow:ellipsis;">Himesh and Shreya Ghoshal</div>`,
     poster: "img/5.jpg",
   },
   {
     id: 6,
     songName: `Gaddi Neevi <br />
-    <div class="subtitle">Yo Yo Homey Singh & Singsta</div>`,
+    <div class="subtitle" style="text-overflow:ellipsis;">Yo Yo Homey Singh & Singsta</div>`,
     poster: "img/6.jpg",
   },
   {
     id: 7,
-    songName: `Bachke Bachke(feat. Yarah) <br />
-        <div class="subtitle">Karan Aujla & Ikky</div>`,
-    poster: "img/album1.jpg",
+    songName: `Ganga Kinare<br />
+        <div class="subtitle" style="text-overflow:ellipsis;">Hansraj Raghuwanshi</div>`,
+    poster: "img/7.jpg",
   },
   {
     id: 8,
-    songName: `Bachke Bachke(feat. Yarah) <br />
-        <div class="subtitle">Karan Aujla & Ikky</div>`,
-    poster: "img/3.jpg",
+    songName: `Sinner<br />
+        <div class="subtitle" style="text-overflow:ellipsis;">King </div>`,
+    poster: "img/8.jpg",
   },
   {
     id: 9,
-    songName: `Bachke Bachke(feat. Yarah) <br />
-        <div class="subtitle">Karan Aujla & Ikky</div>`,
-    poster: "img/mix1.jpg",
+    songName: `Teri Yaadon Main <br />
+        <div class="subtitle" style="text-overflow:ellipsis;">KK, Shreya Ghosal and Sajid-Wajid</div>`,
+    poster: "img/9.jpg",
   },
   {
     id: 10,
     songName: `On Top <br />
-        <div class="subtitle">Karan Aujla & Ikky</div>`,
+        <div class="subtitle" style="text-overflow:ellipsis;">Karan Aujla</div>`,
     poster: "img/recom2.jpg",
   },
 ];
