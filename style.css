@@ -178,20 +178,22 @@ header .menu_side .menu_song li img {
   margin-left: 2.5rem;
 }
 header .menu_side .menu_song li h5 {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   margin-left: 1.5rem;
   width: 17rem;
+  font-weight: 450;
   /* border: 1px solid #fff; */
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
 header .menu_side .menu_song li h5 .subtitle {
-  font-size: 0.9rem;
-  color: #4c5262;
+  font-size: 1rem;
+  font-weight: bolder;
+  color: #6d6e71;
 }
 header .menu_side .menu_song li .bi {
-  font-size: 14px;
+  font-size: 16px;
   position: absolute;
   right: 1.5rem;
 }
@@ -326,7 +328,7 @@ header .master_play .setting .system .bar .bar2 {
   position: absolute;
   background: #fff;
   border-radius: 1.5rem;
-  width: 50%;
+  width: 0%;
   height: 100%;
   top: 0;
   transition: 1s linear;
@@ -404,7 +406,7 @@ header .master_play .vol .vol_bar {
   position: absolute;
   background: #fff;
   border-radius: 1.5rem;
-  width: 50%;
+  width: 100%;
   height: 100%;
   top: 0;
   transition: 1s linear;
