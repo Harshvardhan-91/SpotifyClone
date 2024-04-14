@@ -25,13 +25,13 @@ const songs = [
   {
     id: 2,
     songName: `Pehle Bhi main <br />
-        <div class="subtitle">Vishal Mishra , Rajshekhar</div>`,
+        <div class="subtitle"><marquee Scrolldelay="200">Vishal Mishra , Rajshekhar</marquee></div>`,
     poster: "img/2.jpg",
   },
   {
     id: 3,
     songName: `Bachke Bachke(feat. Yarah) <br />
-        <div class="subtitle">Karan Aujla & Ikky</div>`,
+        <div class="subtitle"><marquee Scrolldelay="200">Karan Aujla & Ikky</marquee></div>`,
     poster: "img/3.jpg",
   },
   {
