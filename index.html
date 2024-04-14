@@ -15,25 +15,37 @@
     <header>
       <div class="menu_side">
         <div class="first">
-          <div class="first1" style="margin: 15px;">
-            <div class="heading"><h1 style="font-size: 16px;"><i class="bi bi-house-door-fill"style=" font-weight: 500; margin-right: 10px;"></i>Home</h1></div>
-           <div class="heading"><h1 style="font-size: 16px;"><i class="bi bi-search" style=" font-weight: 500; margin-right: 10px;"></i>Search</h1></div>
+          <div class="first1" style="margin: 15px">
+            <div class="heading">
+              <h1 style="font-size: 16px">
+                <i
+                  class="bi bi-house-door-fill"
+                  style="font-weight: 500; margin-right: 10px"
+                ></i
+                >Home
+              </h1>
+            </div>
+            <div class="heading">
+              <h1 style="font-size: 16px">
+                <i
+                  class="bi bi-search"
+                  style="font-weight: 500; margin-right: 10px"
+                ></i
+                >Search
+              </h1>
+            </div>
+          </div>
         </div>
-       </div>
-          
+
         <div class="playlist">
-            <h4 class="active">
-              <span></span><i class="bi bi-stack"></i></i>Queue
-            </h4>
-            <h4>
-              <span></span><i class="bi bi-music-note-beamed"></i>Playlist
-            </h4>
-            <h4>
-              <span></span><i class="bi bi-music-note-beamed"></i>Last Listening
-            </h4>
-            <h4>
-              <span></span><i class="bi bi-music-note-beamed"></i>Recommended
-            </h4>
+          <h4 class="active"><span></span><i class="bi bi-stack"></i>Queue</h4>
+          <h4><span></span><i class="bi bi-music-note-beamed"></i>Playlist</h4>
+          <h4>
+            <span></span><i class="bi bi-music-note-beamed"></i>Last Listening
+          </h4>
+          <h4>
+            <span></span><i class="bi bi-music-note-beamed"></i>Recommended
+          </h4>
         </div>
 
         <div class="menu_song" id="scroll1">
@@ -62,7 +74,7 @@
               Bachke Bachke(feat. Yarah) <br />
               <div class="subtitle">Karan Aujla & Ikky</div>
             </h5>
-            <i class="bi playListPlay bi-play-circle-fill" id="2"></i>
+            <i class="bi playListPlay bi-play-circle-fill" id="3"></i>
           </li>
           <li class="songItem">
             <span>04</span>
@@ -71,7 +83,7 @@
               Downers At Dusk <br />
               <div class="subtitle">Talha Anjum and Umair</div>
             </h5>
-            <i class="bi playListPlay bi-play-circle-fill" id="2"></i>
+            <i class="bi playListPlay bi-play-circle-fill" id="4"></i>
           </li>
           <li class="songItem">
             <span>05</span>
@@ -80,7 +92,7 @@
               Ek Haseena Thi<br />
               <div class="subtitle">Himesh and Shreya Ghoshal</div>
             </h5>
-            <i class="bi playListPlay bi-play-circle-fill" id="2"></i>
+            <i class="bi playListPlay bi-play-circle-fill" id="5"></i>
           </li>
           <li class="songItem">
             <span>06</span>
@@ -89,7 +101,7 @@
               Gaddi Neevi <br />
               <div class="subtitle">Yo Yo Homey Singh & Singsta</div>
             </h5>
-            <i class="bi playListPlay bi-play-circle-fill" id="2"></i>
+            <i class="bi playListPlay bi-play-circle-fill" id="6"></i>
           </li>
           <li class="songItem">
             <span>07</span>
@@ -98,7 +110,7 @@
               On My Way <br />
               <div class="subtitle">Alan Walker</div>
             </h5>
-            <i class="bi playListPlay bi-play-circle-fill" id="2"></i>
+            <i class="bi playListPlay bi-play-circle-fill" id="7"></i>
           </li>
           <li class="songItem">
             <span>08</span>
@@ -107,7 +119,7 @@
               On My Way <br />
               <div class="subtitle">Alan Walker</div>
             </h5>
-            <i class="bi playListPlay bi-play-circle-fill" id="2"></i>
+            <i class="bi playListPlay bi-play-circle-fill" id="8"></i>
           </li>
           <li class="songItem">
             <span>09</span>
@@ -116,7 +128,7 @@
               On My Way <br />
               <div class="subtitle">Alan Walker</div>
             </h5>
-            <i class="bi playListPlay bi-play-circle-fill" id="2"></i>
+            <i class="bi playListPlay bi-play-circle-fill" id="9"></i>
           </li>
           <li class="songItem">
             <span>10</span>
@@ -125,23 +137,14 @@
               On My Way <br />
               <div class="subtitle">Alan Walker</div>
             </h5>
-            <i class="bi playListPlay bi-play-circle-fill" id="2"></i>
-          </li>
-          <li class="songItem">
-            <span>11</span>
-            <img src="img/1.jpg" alt="" />
-            <h5>
-              On My Way <br />
-              <div class="subtitle">Alan Walker</div>
-            </h5>
-            <i class="bi playListPlay bi-play-circle-fill" id="2"></i>
+            <i class="bi playListPlay bi-play-circle-fill" id="10"></i>
           </li>
         </div>
       </div>
-<!-- --------------------------------------------------------------------------------------------------------- -->
+      <!-- --------------------------------------------------------------------------------------------------------- -->
       <div class="song_side">
-        <nav style="display: flex; justify-content: space-between;">
-          <div class="btn1"> 
+        <nav style="display: flex; justify-content: space-between">
+          <div class="btn1">
             <ul>
               <li>All<span></span></li>
               <li>Music</li>
@@ -150,66 +153,154 @@
           </div>
           <div class="search">
             <i class="bi bi-search"></i>
-            <input type="text" placeholder="Search Music...">
+            <input type="text" placeholder="Search Music..." />
           </div>
-          <div class="user" style="display: flex;">
+          <div class="user" style="display: flex">
             <div><button>Explore Premimum</button></div>
             <div><i class="bi bi-bell"></i></div>
-            <div><img src="img/login.png" alt=""></div>
+            <div><img src="img/login.png" alt="" /></div>
           </div>
         </nav>
         <div class="content">
           <div class="nav2">
             <div><h3>Your top mixes</h3></div>
-            <div><h4 style="color: rgb(59, 59, 59);">Show All</h4></div>
+            <div><h4 style="color: rgb(59, 59, 59)">Show All</h4></div>
           </div>
           <div class="mixes">
-            <div class="mix1"><img src="img/mix1.jpg" alt=""><h5>Young Stunners mix</h5> <marquee Scrolldelay="150" behavior=" " direction=" "><h6>Karakoram, Rap demon, Talha Anjum and Talha Yunus</h6></marquee></div>
-            <div class="mix2"><img src="img/3.jpg" alt=""><h5>Karan Aujla Mix</h5><marquee Scrolldelay="150" behavior=" " direction=" "><h6>Karan Aujla, Sidhu Moosewala, Bilal Saeed and AP Dhillon</h6></marquee></div>
-            <div class="mix3"><img src="img/mix3.jpg" alt=""><h5>Hip Hop mix</h5><marquee Scrolldelay="150" behavior=" " direction=" "><h6>Krishna, Raftaar, Young Stunners and more</h6></marquee></div>
-            <div class="mix4"><img src="img/mix4.jpg" alt=""><h5>Moody Mix</h5><marquee Scrolldelay="150" behavior=" " direction=" "><h6>Anjana Grande, Mitski, Zech Brayan and more</h6></marquee></div>
-            <div class="mix5"><img src="img/mix5.jpg" alt=""><h5>Romantic Mix</h5><marquee Scrolldelay="150" behavior=" " direction=" "><h6>Arjit Singh, KK, Darshan Raval and more</h6></marquee></div>
+            <div class="mix1">
+              <img src="img/mix1.jpg" alt="" />
+              <h5>Young Stunners mix</h5>
+              <marquee Scrolldelay="150" behavior=" " direction=" ">
+                <h6>Karakoram, Rap demon, Talha Anjum and Talha Yunus</h6>
+              </marquee>
+            </div>
+            <div class="mix2">
+              <img src="img/3.jpg" alt="" />
+              <h5>Karan Aujla Mix</h5>
+              <marquee Scrolldelay="150" behavior=" " direction=" "
+                ><h6>
+                  Karan Aujla, Sidhu Moosewala, Bilal Saeed and AP Dhillon
+                </h6></marquee
+              >
+            </div>
+            <div class="mix3">
+              <img src="img/mix3.jpg" alt="" />
+              <h5>Hip Hop mix</h5>
+              <marquee Scrolldelay="150" behavior=" " direction=" "
+                ><h6>Krishna, Raftaar, Young Stunners and more</h6></marquee
+              >
+            </div>
+            <div class="mix4">
+              <img src="img/mix4.jpg" alt="" />
+              <h5>Moody Mix</h5>
+              <marquee Scrolldelay="150" behavior=" " direction=" "
+                ><h6>Anjana Grande, Mitski, Zech Brayan and more</h6></marquee
+              >
+            </div>
+            <div class="mix5">
+              <img src="img/mix5.jpg" alt="" />
+              <h5>Romantic Mix</h5>
+              <marquee Scrolldelay="150" behavior=" " direction=" "
+                ><h6>Arjit Singh, KK, Darshan Raval and more</h6></marquee
+              >
+            </div>
           </div>
           <div class="nav3">
             <div><h3>Recommended for today</h3></div>
-            <div><h4 style="color: rgb(59, 59, 59);">Show All</h4></div>
-
+            <div><h4 style="color: rgb(59, 59, 59)">Show All</h4></div>
           </div>
           <div class="recommends">
-            <div class="recom1"><img src="img/recom1.jpg" alt=""><h5>Haryana Hood</h5> <h6>Irshad Khan</h6></div>
-            <div class="recom2"><img src="img/recom2.jpg" alt=""><h5>On top</h5><h6>Karan Aujla</h6></div>
-            <div class="recom3"><img src="img/recom3.jpg" alt=""><h5>Still Rollin</h5><h6>Shubh</h6></div>
-            <div class="recom4"><img src="img/recom4.jpg" alt=""><h5>Safar</h5><h6>Juss, Mix Singh</h6></div>
-            <div class="recom5"><img src="img/recom5.jpg" alt=""><h5>After hours</h5><h6>Bir,  Dhanju, thiarajxtt </h6></div>
+            <div class="recom1">
+              <img src="img/recom1.jpg" alt="" />
+              <h5>Haryana Hood</h5>
+              <h6>Irshad Khan</h6>
+            </div>
+            <div class="recom2">
+              <img src="img/recom2.jpg" alt="" />
+              <h5>On top</h5>
+              <h6>Karan Aujla</h6>
+            </div>
+            <div class="recom3">
+              <img src="img/recom3.jpg" alt="" />
+              <h5>Still Rollin</h5>
+              <h6>Shubh</h6>
+            </div>
+            <div class="recom4">
+              <img src="img/recom4.jpg" alt="" />
+              <h5>Safar</h5>
+              <h6>Juss, Mix Singh</h6>
+            </div>
+            <div class="recom5">
+              <img src="img/recom5.jpg" alt="" />
+              <h5>After hours</h5>
+              <h6>Bir, Dhanju, thiarajxtt</h6>
+            </div>
           </div>
           <div class="nav4">
             <div><h3>Popular Albums</h3></div>
-            <div><h4 style="color: rgb(59, 59, 59);">Show All</h4></div>
+            <div><h4 style="color: rgb(59, 59, 59)">Show All</h4></div>
           </div>
           <div class="albums">
-            <div class="album1"><img src="img/album1.jpg" alt=""><h5>Aashiqui 2</h5> <h6>Irshad Khan</h6></div>
-            <div class="album2"><img src="img/2.jpg" alt=""><h5>Animal</h5><h6>Manan Bharadwaj, Vishal Mishra, Janni</h6></div>
-            <div class="album3"><img src="img/album3.jpg" alt=""><h5>Kabir Singh</h5><h6>Various Artists</h6></div>
-            <div class="album4"><img src="img/album4.jpg" alt=""><h5>Sarkar</h5><h6>Various Artists</h6></div>
-            <div class="album5"><img src="img/album5.jpg" alt=""><h5>Ghost</h5><h6>Diljit Dosanjh</h6></div>
+            <div class="album1">
+              <img src="img/album1.jpg" alt="" />
+              <h5>Aashiqui 2</h5>
+              <h6>Irshad Khan</h6>
+            </div>
+            <div class="album2">
+              <img src="img/2.jpg" alt="" />
+              <h5>Animal</h5>
+              <h6>Manan Bharadwaj, Vishal Mishra, Janni</h6>
+            </div>
+            <div class="album3">
+              <img src="img/album3.jpg" alt="" />
+              <h5>Kabir Singh</h5>
+              <h6>Various Artists</h6>
+            </div>
+            <div class="album4">
+              <img src="img/album4.jpg" alt="" />
+              <h5>Sarkar</h5>
+              <h6>Various Artists</h6>
+            </div>
+            <div class="album5">
+              <img src="img/album5.jpg" alt="" />
+              <h5>Ghost</h5>
+              <h6>Diljit Dosanjh</h6>
+            </div>
           </div>
           <div class="nav5">
             <div><h3>Popular Artists</h3></div>
-            <div><h4 style="color: rgb(59, 59, 59);">Show All</h4></div>
+            <div><h4 style="color: rgb(59, 59, 59)">Show All</h4></div>
           </div>
           <div class="artists">
-            <div class="artist1"><img src="img/artist1.jpg" alt=""><h5>Darshal Raval</h5> <h6></h6></div>
-            <div class="artist2"><img src="img/artist2.jpg" alt=""><h5>Arjit Singh</h5><h6></h6></div>
-            <div class="artist3"><img src="img/artist3.jpg" alt=""><h5>Vishal Mishra</h5><h6></h6></div>
-            <div class="artist4"><img src="img/artist4.jpg" alt=""><h5>Atif Aslum</h5><h6></h6></div>
-            <div class="artist5"><img src="img/artist5.jpg" alt=""><h5>Anirudh Ravichandar</h5><h6></h6></div>
+            <div class="artist1">
+              <img src="img/artist1.jpg" alt="" />
+              <h5>Darshal Raval</h5>
+              <h6></h6>
+            </div>
+            <div class="artist2">
+              <img src="img/artist2.jpg" alt="" />
+              <h5>Arjit Singh</h5>
+              <h6></h6>
+            </div>
+            <div class="artist3">
+              <img src="img/artist3.jpg" alt="" />
+              <h5>Vishal Mishra</h5>
+              <h6></h6>
+            </div>
+            <div class="artist4">
+              <img src="img/artist4.jpg" alt="" />
+              <h5>Atif Aslum</h5>
+              <h6></h6>
+            </div>
+            <div class="artist5">
+              <img src="img/artist5.jpg" alt="" />
+              <h5>Anirudh Ravichandar</h5>
+              <h6></h6>
+            </div>
           </div>
-
-<!-- ------------------------------------------------------------- -->
         </div>
-<!-- -------------------------------------------------------------------------------------------------------- -->
       </div>
-      
+      <!-- -------------------------------------------------------------------------------------------------------- -->
       <div class="master_play">
         <div class="wave">
           <div class="wave1"></div>
