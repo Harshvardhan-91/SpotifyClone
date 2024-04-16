@@ -1226,9 +1226,13 @@ header .song_side nav .user button {
     background: linear-gradient(rgb(69, 68, 68), rgb(36, 37, 36));
   }
 }
-/* @media (max-width: 400px) {
-  header {
-    width: 100%;
-  } 
-}*/
+@media (max-width: 400px) {
+  .user {
+    width: 0;
+  }
+  .hamburger {
+    padding-right: 20px;
+    width: auto;
+  }
+}
 /* -------------------------------------------------------- */
