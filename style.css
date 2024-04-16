@@ -1231,5 +1231,8 @@ header .song_side nav .user button {
   header .song_side {
     overflow-y: hidden;
   }
+  .hamburger {
+    padding-right: 10px;
+  }
 }
 /* -------------------------------------------------------- */
