@@ -1228,7 +1228,6 @@ header .song_side nav .user button {
 }
 @media (max-width: 400px) {
   header .song_side {
-    overflow-y: visible;
   }
   .hamburger {
     padding-right: 10px;
