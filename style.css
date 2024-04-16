@@ -1227,4 +1227,9 @@ header .song_side nav .user button {
     background: linear-gradient(rgb(69, 68, 68), rgb(36, 37, 36));
   }
 }
+@media (max-width: 400px) {
+  header .song_side {
+    overflow-y: hidden;
+  }
+}
 /* -------------------------------------------------------- */
