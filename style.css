@@ -1227,8 +1227,5 @@ header .song_side nav .user button {
   }
 }
 @media (max-width: 400px) {
-  .hamburger {
-    padding-right: 10px;
-  }
 }
 /* -------------------------------------------------------- */
