@@ -1180,7 +1180,7 @@ header .song_side nav .user button {
 @media (max-width: 930px) {
   .hamburger {
     display: block;
-    margin-right: 15px;
+    margin-right: 10px;
   }
   .bar {
     color: #fff;
@@ -1226,6 +1226,9 @@ header .song_side nav .user button {
     background: linear-gradient(rgb(69, 68, 68), rgb(36, 37, 36));
   }
 }
-@media (max-width: 400px) {
-}
+/* @media (max-width: 400px) {
+  header {
+    width: 100%;
+  } 
+}*/
 /* -------------------------------------------------------- */
