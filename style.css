@@ -1180,6 +1180,7 @@ header .song_side nav .user button {
   .hamburger {
     display: block;
     margin-right: 10px;
+    z-index: 100000000000000000;
   }
   .bar {
     color: #fff;
