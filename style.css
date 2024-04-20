@@ -436,7 +436,7 @@ header .master_play .vol .dot::before {
 }
 header .song_side {
   width: 74%;
-  height: 85%;
+  height: 87%;
   margin: auto;
   border-radius: 0.8rem;
   background: linear-gradient(rgb(13, 13, 13), rgb(10, 10, 10));
@@ -1196,7 +1196,7 @@ header .song_side nav .user button {
   header .menu_side {
     position: fixed;
     left: -100%;
-    margin-top: 5px;
+    margin-top: 63px;
     z-index: 99999999999999999999;
     transition: 0.3s;
     width: 100%;
@@ -1359,5 +1359,16 @@ header .song_side nav .user button {
   }
   .end .con {
     font-size: 1rem;
+  }
+}
+@media (max-width: 740px) {
+  header .master_play h5 {
+    width: 10rem;
+    font-size: 1rem;
+  }
+  header .master_play h5 .subtitle {
+    font-size: 0.8rem;
+  }
+  @media (max-width: 515px) {
   }
 }
