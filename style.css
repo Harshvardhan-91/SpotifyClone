@@ -1223,7 +1223,7 @@ header .song_side nav .user button {
     display: none;
   }
   header .master_play {
-    background: linear-gradient(rgb(69, 68, 68), rgb(36, 37, 36));
+    background: linear-gradient(rgb(43, 43, 43), rgb(36, 37, 36));
   }
 }
 @media (max-width: 400px) {
