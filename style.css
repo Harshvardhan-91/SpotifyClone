@@ -1212,9 +1212,7 @@ header .song_side nav .user button {
   .user {
     display: none;
   }
-  .exp {
-    display: none;
-  }
+
   .firstnav button {
     display: none;
   }
@@ -1239,6 +1237,12 @@ header .song_side nav .user button {
   header .master_play {
     bottom: 0;
     position: fixed;
+  }
+}
+@media (max-width: 570px) {
+  .exp {
+    display: none;
+    width: 0%;
   }
 }
 /* -------------------------------------------------------- */
@@ -1302,4 +1306,12 @@ header .song_side nav .user button {
 .last11 li:hover {
   color: white;
   transition: 0.3s linear;
+}
+@media (max-width: 774px) {
+  .end {
+    display: none;
+  }
+  .last {
+    display: none;
+  }
 }
