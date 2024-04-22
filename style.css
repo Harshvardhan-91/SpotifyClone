@@ -1370,6 +1370,18 @@ header .song_side nav .user button {
   header .master_play h5 .subtitle {
     font-size: 0.8rem;
   }
-  @media (max-width: 515px) {
+}
+@media (max-width: 500px) {
+  .setting .icon .bi {
+    font-size: 1.5rem;
+  }
+  header .master_play .vol .bi {
+    font-size: 1.5rem;
+    top: -1rem;
+    left: -2rem;
+  }
+  header .master_play img {
+    width: 3rem;
+    height: 4rem;
   }
 }
