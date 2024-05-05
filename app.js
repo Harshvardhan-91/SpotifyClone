@@ -78,6 +78,24 @@ const songs = [
         <div class="subtitle" style="text-overflow:ellipsis;">Karan Aujla</div>`,
     poster: "img/recom2.jpg",
   },
+  {
+    id: 11,
+    songName: `Two Tone <br />
+        <div class="subtitle" style="text-overflow:ellipsis;">Young Stunners</div>`,
+    poster: "img/11.jpg",
+  },
+  {
+    id: 12,
+    songName: `Softly <br />
+        <div class="subtitle" style="text-overflow:ellipsis;">Karan Aujla</div>`,
+    poster: "img/12.jpg",
+  },
+  {
+    id: 13,
+    songName: `No China <br />
+        <div class="subtitle" style="text-overflow:ellipsis;">Raftaar and Krishna</div>`,
+    poster: "img/13.jpg",
+  },
 ];
 
 Array.from(document.getElementsByClassName("songItem")).forEach((e, i) => {

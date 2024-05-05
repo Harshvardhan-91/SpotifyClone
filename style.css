@@ -316,11 +316,11 @@ header .master_play .setting .system span {
   font-weight: 400;
 }
 header .master_play .setting .system #currentStart {
-  margin: 0rem 0rem 0rem 2rem;
+  margin: 0rem 0rem 0rem 0rem;
 }
 header .master_play .setting .system .bar {
   position: relative;
-  width: 70%;
+  width: 60%;
   height: 0.5rem;
   background: rgb(105, 105, 105, 0.1);
   margin: 0rem 1.5rem 0rem 1rem;
@@ -829,49 +829,55 @@ header .song_side nav .user button {
 .content .mixes h5 {
   margin-top: 0.4rem;
   font-size: 1.4rem;
-  padding-left: 0.4rem;
+  padding-left: 1rem;
   font-weight: 400;
   text-align: left;
 }
 .content .mixes h6 {
   width: 18rem;
-  font-weight: light;
+  height: auto;
+  font-weight: 500;
+  padding-left: 1rem;
   font-size: 1.2rem;
   margin-top: 5px;
   text-overflow: ellipsis;
-  color: #474747;
+  color: grey;
 }
 .content .recommends h5 {
   margin-top: 0.4rem;
   font-size: 1.4rem;
   padding-left: 0.4rem;
+  padding-left: 1rem;
   font-weight: 400;
   text-align: left;
 }
 .content .recommends h6 {
   width: 18rem;
-  font-weight: light;
+  font-weight: 500;
   font-size: 1.2rem;
   padding-left: 0.4rem;
+  padding-left: 1rem;
   margin-top: 5px;
   text-overflow: ellipsis;
-  color: #474747;
+  color: grey;
 }
 .content .albums h5 {
   margin-top: 0.4rem;
   font-size: 1.4rem;
   padding-left: 0.4rem;
+  padding-left: 1rem;
   font-weight: 400;
   text-align: left;
 }
 .content .albums h6 {
   width: 18rem;
-  font-weight: light;
+  font-weight: 500;
   font-size: 1.2rem;
   padding-left: 0.4rem;
+  padding-left: 1rem;
   text-overflow: ellipsis;
   margin-top: 5px;
-  color: #474747;
+  color: grey;
 }
 .content .artists h5 {
   margin-top: 0.4rem;
@@ -883,11 +889,11 @@ header .song_side nav .user button {
 .content .artists h6 {
   width: 18rem;
   margin-top: 5px;
-  font-weight: light;
+  font-weight: 500;
   font-size: 1.2rem;
   margin-left: 0.5rem;
   text-overflow: ellipsis;
-  color: #474747;
+  color: grey;
 }
 /* ----------------------------------------------------------------------------------------------------------- */
 /* -------------------------------------------------------All hovering effects---------------------------------- */
@@ -1384,4 +1390,130 @@ header .song_side nav .user button {
     width: 3rem;
     height: 4rem;
   }
+}
+.mixes .bi {
+  color: rgb(36, 181, 36);
+  width: 100%;
+  margin: auto;
+  font-size: 0;
+  transition: 0.5s ease;
+}
+.recommends .bi {
+  color: rgb(36, 181, 36);
+  width: 100%;
+  margin: auto;
+  font-size: 0;
+  transition: 0.5s ease;
+}
+.albums .bi {
+  color: rgb(36, 181, 36);
+  width: 100%;
+  margin: auto;
+  font-size: 0;
+  transition: 0.5s ease;
+}
+.mix1:hover .bi {
+  height: 100%;
+  width: 100%;
+  font-size: 2.5rem;
+  transform: rotate(-5deg) skewX(-5deg);
+  padding-left: 1rem;
+}
+.mix2:hover .bi {
+  height: 100%;
+  width: 100%;
+  font-size: 2.5rem;
+  transform: rotate(-5deg) skewX(-5deg);
+  padding-left: 1rem;
+}
+.mix3:hover .bi {
+  height: 100%;
+  width: 100%;
+  font-size: 2.5rem;
+  transform: rotate(-5deg) skewX(-5deg);
+  padding-left: 1rem;
+}
+.mix4:hover .bi {
+  height: 100%;
+  width: 100%;
+  font-size: 2.5rem;
+  transform: rotate(-5deg) skewX(-5deg);
+  padding-left: 1rem;
+}
+.mix5:hover .bi {
+  height: 100%;
+  width: 100%;
+  font-size: 2.5rem;
+  transform: rotate(-5deg) skewX(-5deg);
+  padding-left: 1rem;
+}
+.recom1:hover .bi {
+  height: 100%;
+  width: 100%;
+  font-size: 2.5rem;
+  transform: rotate(-5deg) skewX(-5deg);
+  padding-left: 1rem;
+}
+.recom2:hover .bi {
+  height: 100%;
+  width: 100%;
+  font-size: 2.5rem;
+  transform: rotate(-5deg) skewX(-5deg);
+  padding-left: 1rem;
+}
+.recom3:hover .bi {
+  height: 100%;
+  width: 100%;
+  font-size: 2.5rem;
+  transform: rotate(-5deg) skewX(-5deg);
+  padding-left: 1rem;
+}
+.recom4:hover .bi {
+  height: 100%;
+  width: 100%;
+  font-size: 2.5rem;
+  transform: rotate(-5deg) skewX(-5deg);
+  padding-left: 1rem;
+}
+.recom5:hover .bi {
+  height: 100%;
+  width: 100%;
+  font-size: 2.5rem;
+  transform: rotate(-5deg) skewX(-5deg);
+  padding-left: 1rem;
+}
+.album1:hover .bi {
+  height: 100%;
+  width: 100%;
+  font-size: 2.5rem;
+  transform: rotate(-5deg) skewX(-5deg);
+  padding-left: 1rem;
+}
+.album2:hover .bi {
+  height: 100%;
+  width: 100%;
+  font-size: 2.5rem;
+  transform: rotate(-5deg) skewX(-5deg);
+  padding-left: 1rem;
+}
+.album3:hover .bi {
+  height: 100%;
+  width: 100%;
+  font-size: 2.5rem;
+  transform: rotate(-5deg) skewX(-5deg);
+  padding-left: 1rem;
+}
+.album4:hover .bi {
+  height: 100%;
+  width: 100%;
+  font-size: 2.5rem;
+  transform: rotate(-5deg) skewX(-5deg);
+  padding-left: 1rem;
+}
+.album5:hover .bi {
+  height: 100%;
+  width: 100%;
+  font-size: 2.5rem;
+  transform: rotate(-5deg) skewX(-5deg);
+  padding-left: 1rem;
 }
