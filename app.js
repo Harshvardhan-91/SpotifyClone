@@ -96,6 +96,18 @@ const songs = [
         <div class="subtitle" style="text-overflow:ellipsis;">Raftaar and Krishna</div>`,
     poster: "img/13.jpg",
   },
+  {
+    id: 14,
+    songName: `Aaya Na Tu <br />
+        <div class="subtitle" style="text-overflow:ellipsis;">Arjun Kanungo, Momina Mustehsan</div>`,
+    poster: "img/14.jpg",
+  },
+  {
+    id: 15,
+    songName: `Kabhi na Kabhi <br />
+        <div class="subtitle" style="text-overflow:ellipsis;">Arjun Kanungo, Momina Mustehsan</div>`,
+    poster: "img/15.jpg",
+  },
 ];
 
 Array.from(document.getElementsByClassName("songItem")).forEach((e, i) => {

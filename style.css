@@ -216,7 +216,7 @@ header .master_play .wave {
 header .master_play .wave .wave1 {
   width: 0.3rem;
   height: 1rem;
-  background: #ffffff;
+  background: #fff;
   margin-right: 0.3rem;
   border-radius: 1rem 1rem 0rem 0rem;
   animation: unset;
@@ -1392,7 +1392,7 @@ header .song_side nav .user button {
   }
 }
 .mixes .bi {
-  color: rgb(36, 181, 36);
+  color: rgb(67, 201, 67);
   width: 100%;
   margin: auto;
   font-size: 0;
@@ -1415,105 +1415,105 @@ header .song_side nav .user button {
 .mix1:hover .bi {
   height: 100%;
   width: 100%;
-  font-size: 2.5rem;
+  font-size: 3rem;
   transform: rotate(-5deg) skewX(-5deg);
   padding-left: 1rem;
 }
 .mix2:hover .bi {
   height: 100%;
   width: 100%;
-  font-size: 2.5rem;
+  font-size: 3rem;
   transform: rotate(-5deg) skewX(-5deg);
   padding-left: 1rem;
 }
 .mix3:hover .bi {
   height: 100%;
   width: 100%;
-  font-size: 2.5rem;
+  font-size: 3rem;
   transform: rotate(-5deg) skewX(-5deg);
   padding-left: 1rem;
 }
 .mix4:hover .bi {
   height: 100%;
   width: 100%;
-  font-size: 2.5rem;
+  font-size: 3rem;
   transform: rotate(-5deg) skewX(-5deg);
   padding-left: 1rem;
 }
 .mix5:hover .bi {
   height: 100%;
   width: 100%;
-  font-size: 2.5rem;
+  font-size: 3rem;
   transform: rotate(-5deg) skewX(-5deg);
   padding-left: 1rem;
 }
 .recom1:hover .bi {
   height: 100%;
   width: 100%;
-  font-size: 2.5rem;
+  font-size: 3rem;
   transform: rotate(-5deg) skewX(-5deg);
   padding-left: 1rem;
 }
 .recom2:hover .bi {
   height: 100%;
   width: 100%;
-  font-size: 2.5rem;
+  font-size: 3rem;
   transform: rotate(-5deg) skewX(-5deg);
   padding-left: 1rem;
 }
 .recom3:hover .bi {
   height: 100%;
   width: 100%;
-  font-size: 2.5rem;
+  font-size: 3rem;
   transform: rotate(-5deg) skewX(-5deg);
   padding-left: 1rem;
 }
 .recom4:hover .bi {
   height: 100%;
   width: 100%;
-  font-size: 2.5rem;
+  font-size: 3rem;
   transform: rotate(-5deg) skewX(-5deg);
   padding-left: 1rem;
 }
 .recom5:hover .bi {
   height: 100%;
   width: 100%;
-  font-size: 2.5rem;
+  font-size: 3rem;
   transform: rotate(-5deg) skewX(-5deg);
   padding-left: 1rem;
 }
 .album1:hover .bi {
   height: 100%;
   width: 100%;
-  font-size: 2.5rem;
+  font-size: 3rem;
   transform: rotate(-5deg) skewX(-5deg);
   padding-left: 1rem;
 }
 .album2:hover .bi {
   height: 100%;
   width: 100%;
-  font-size: 2.5rem;
+  font-size: 3rem;
   transform: rotate(-5deg) skewX(-5deg);
   padding-left: 1rem;
 }
 .album3:hover .bi {
   height: 100%;
   width: 100%;
-  font-size: 2.5rem;
+  font-size: 3rem;
   transform: rotate(-5deg) skewX(-5deg);
   padding-left: 1rem;
 }
 .album4:hover .bi {
   height: 100%;
   width: 100%;
-  font-size: 2.5rem;
+  font-size: 3rem;
   transform: rotate(-5deg) skewX(-5deg);
   padding-left: 1rem;
 }
 .album5:hover .bi {
   height: 100%;
   width: 100%;
-  font-size: 2.5rem;
+  font-size: 3rem;
   transform: rotate(-5deg) skewX(-5deg);
   padding-left: 1rem;
 }
