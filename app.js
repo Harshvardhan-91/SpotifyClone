@@ -108,6 +108,60 @@ const songs = [
         <div class="subtitle" style="text-overflow:ellipsis;">Arjun Kanungo, Momina Mustehsan</div>`,
     poster: "img/15.jpg",
   },
+  {
+    id: 16,
+    songName: `Haryana Hood <br />
+        <div class="subtitle" style="text-overflow:ellipsis;">Irshad Khan</div>`,
+    poster: "img/16.jpg",
+  },
+  {
+    id: 18,
+    songName: `Still Rollin <br />
+        <div class="subtitle" style="text-overflow:ellipsis;">Shubh</div>`,
+    poster: "img/18.jpg",
+  },
+  {
+    id: 19,
+    songName: `Safar <br />
+        <div class="subtitle" style="text-overflow:ellipsis;">Juss, Mix Singh</div>`,
+    poster: "img/19.jpg",
+  },
+  {
+    id: 20,
+    songName: `After Hours <br />
+        <div class="subtitle" style="text-overflow:ellipsis;">Bir, Dhanju, thiarajxtt</div>`,
+    poster: "img/20.jpg",
+  },
+  {
+    id: 21,
+    songName: `Haryana Hood <br />
+        <div class="subtitle" style="text-overflow:ellipsis;">Irshad Khan</div>`,
+    poster: "img/16.jpg",
+  },
+  {
+    id: 22,
+    songName: `Haryana Hood <br />
+        <div class="subtitle" style="text-overflow:ellipsis;">Irshad Khan</div>`,
+    poster: "img/16.jpg",
+  },
+  {
+    id: 23,
+    songName: `Haryana Hood <br />
+        <div class="subtitle" style="text-overflow:ellipsis;">Irshad Khan</div>`,
+    poster: "img/16.jpg",
+  },
+  {
+    id: 24,
+    songName: `Haryana Hood <br />
+        <div class="subtitle" style="text-overflow:ellipsis;">Irshad Khan</div>`,
+    poster: "img/16.jpg",
+  },
+  {
+    id: 25,
+    songName: `Haryana Hood <br />
+        <div class="subtitle" style="text-overflow:ellipsis;">Irshad Khan</div>`,
+    poster: "img/16.jpg",
+  },
 ];
 
 Array.from(document.getElementsByClassName("songItem")).forEach((e, i) => {
