@@ -301,8 +301,11 @@ header .master_play .setting .icon .shuffle {
   align-items: center;
 }
 header .master_play .setting .icon #download_music {
+  text-decoration: none;
+  color: #fff;
   font-size: 2rem;
   margin-left: 1rem;
+
 }
 header .master_play .icon .bi:nth-child(3) {
   padding: 0.1rem 0.5rem 0rem 0.7rem;
